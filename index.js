@@ -3,7 +3,6 @@ const app = express()
 const port = process.env.PORT || 3000
 
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
 
 // main admin page for 
 app.use('/' , require('./routes/Admin.js'))
