@@ -1,5 +1,1 @@
-{"query":"hello","time":"02/08/2022, 18:28:00"},
-{"query":"can you buy something","time":"02/08/2022, 18:31:18"},
-{"query":"can you buy something","\ntime":"02/08/2022, 18:31:54"},
-{"query":"main","time":"02/08/2022, 18:33:14"},
-{"query":"main","time":"02/08/2022, 18:33:14"},
+
