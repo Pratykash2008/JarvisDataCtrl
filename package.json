@@ -1,0 +1,25 @@
+{
+  "name": "jarvisdataapi",
+  "version": "1.0.0",
+  "description": "Mangement of jarvis desktop assitant that can provide data for jarvis intelligence",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Jarvisctrl"
+  },
+  "keywords": [
+    "nodejs",
+    "server",
+    "api"
+  ],
+  "author": "Pratykash",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
