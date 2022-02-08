@@ -5,12 +5,18 @@ key = 'E~7@)`g!$fNga!cKq-aa'
 const fs = require('fs');
 
 router.get('/' , (req ,res)=>{
-    var content
-
     bool = req.query.id == key
     if (bool){
+        main = req.query.word
+        if (main){
+            if (main == 'clear'){
+                fs.writeFile('./Data/rawData.txt', 'query that people search : \n', function (err) {
+                    if (err) throw err;
+                    console.log('cleared');
+                  });
+            }
+        }
         var text = fs.readFileSync('./Data/rawData.txt','utf8')
-        console.log(text)
         res.send(text)
     }
     else{
