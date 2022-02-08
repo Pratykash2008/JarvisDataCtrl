@@ -14,6 +14,7 @@ router.get('/' , (req ,res)=>{
                     if (err) throw err;
                     console.log('cleared');
                   });
+                res.send('cleared data')
             }
         }
         var text = fs.readFileSync('./Data/rawData.txt','utf8')
