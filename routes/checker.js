@@ -19,8 +19,8 @@ router.get('/' , (req ,res)=>{
 })
 
 router.post('/' , (req, res , next)=>{
-    console.log(req.header())
-    res.send('got a post request')
+    res.send('will be availble soon')
+    // res.redirect('/')
 })
 
 module.exports = router

@@ -8,8 +8,9 @@ router.get('/', (req, res) => {
     res.redirect('/')
 })
 // this is devloper request endpoint
-router.post('/', (req, res, next) => {
+router.post('/', (req, res,) => {
     var data = req.body
+    console.log(data)
     res.send(manager('./Data/rawData.txt' , data , "query"))
 })
 
