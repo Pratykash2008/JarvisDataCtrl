@@ -8,6 +8,9 @@ router.get('/' , function(req , res){
 router.get('/Logo' , function(req , res){
     res.sendFile(path.join(__dirname , '../public/favicon.png'))
 })
+router.get('/side' , function(req , res){
+    res.sendFile(path.join(__dirname , '../Data/SideImg.jpg'))
+})
 router.get('/kacha', function(req, res){
     filename = 'KachaBadam.mp4'
     var file = (path.join(__dirname , `../Download/${filename}`));
